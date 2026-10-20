@@ -13,11 +13,15 @@
     <link rel="stylesheet" href="./src/styles/introduction.css">
     <link rel="stylesheet" href="./src/styles/especialization.css">
     <link rel="stylesheet" href="./src/styles/acting.css">
+    <link rel="stylesheet" href="./src/styles/trabalheconosco.css">
+     <link rel="stylesheet" href="./src/styles/footer.css">
 </head>
 <body>
     <?php include './src/components/navbar.php'; ?>
     <?php include './src/components/introduction.php'; ?>   
     <?php include './src/components/especialization.php'; ?>   
     <?php include './src/components/acting.php'; ?>   
+    <?php include './src/components/trabalheconosco.php'; ?>   
+    <?php include './src/components/footer.php'; ?>   
 </body>
 </html>

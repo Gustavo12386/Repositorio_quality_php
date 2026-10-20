@@ -1,0 +1,312 @@
+:root {
+  --main-font: 'Archivo', sans-serif;
+  --font-secondary: 'Comfortaa', sans-serif;
+  --color-text-body: #fff;
+}
+
+.interfacefooter {
+  background-color: #2D4469;
+  margin: 0 auto; 
+  padding-bottom: 100px;
+}
+
+.flexfooter {
+  display: flex;
+  gap: 90px;
+  margin-right: 200px;
+  justify-content: center;
+}
+
+.linefooter {
+  text-align: center;
+  position: relative;
+}
+
+.logofooter {
+  margin-top: 60px;
+  margin-left: 150px;
+  filter: drop-shadow(9px 0px 8px rgba(0, 0, 0, 0.25));
+}
+
+.topicslistfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.division1 {
+  width: 1px;
+  height: 245px;
+  margin-top: 50px;
+  background-color: var(--color-text-body);
+  border: 1px solid var(--color-text-body);
+}
+
+.topics1footer {
+  margin-top: 50px;
+  border-color: var(--color-text-body);
+}
+
+.topics2footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.titlefooter {
+  font-family: var(--main-font);
+  color: var(--color-text-body);
+  font-size: 25px;
+}
+
+.topic1footer {
+  width: 160px;
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text-body);
+  text-decoration: none;
+}
+
+.topic2footer {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text-body);
+  position: relative;
+  top: 100px;
+}
+
+.topic1footer:hover {
+  color: #c1bcbc;
+}
+
+.division2 {
+  width: 1px;
+  height: 240px;
+  margin-top: 50px;
+  background-color: var(--color-text-body);
+  border: 1px solid var(--color-text-body);
+}
+
+.divaddress {
+  width: 280px;
+  height: 70px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.localization{
+    width: 20%;
+    height: 60%;
+    position: relative;
+    left: 15px;
+}
+
+.topicaddress {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: var(--color-text-body);
+  width: 70%;
+  margin-left: 10px;
+}
+
+.topicphone {
+  color: var(--color-text-body);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  position: relative;
+  right: 25px;
+  bottom: 28px;
+}
+
+.phone{
+  position: relative;
+  right: 94px;  
+}
+
+.topicclock {
+  color: var(--color-text-body);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  margin-top: 4px;
+  width: 200px;
+}
+
+.divclock {
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  display: flex;
+}
+
+.text {
+  color: var(--color-text-body);
+  font-family: var(--font-secondary);
+  position: relative;
+  top: 70px;
+}
+
+.division3 {
+  width: 90%;
+  height: 1px;
+  position: relative;
+  top: 50px;
+  margin-left: 10vh;
+  justify-content: center;
+  border: 1px solid var(--color-text-body);
+}
+
+.divtitilefooter {
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1440px) {
+  .logofooter {
+    margin-top: 60px;
+    position: relative;
+    left: 2.8vh;
+    filter: drop-shadow(9px 0px 8px rgba(0, 0, 0, 0.25));
+  }
+
+  .division1 {
+    position: relative;
+    left: 2vh;
+  }
+
+  .division2 {
+    position: relative;
+    left: -2vh;
+  }
+
+  .topics2footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+    right: 10vh;
+  }
+
+  .topics1footer {
+    position: relative;
+    left: -1vh;
+  }
+
+  .topicaddress {
+    width: 21vh;
+  }
+
+  .divphone {
+    position: relative;
+    top: 6px;
+  }
+
+  .division3 {
+    width: 90%;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-left: 5vh;
+    justify-content: center;
+    border: 1px solid var(--color-text-body);
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 730px) {
+  .division1 {
+    display: none;
+  }
+
+  .division2 {
+    display: none;
+  }
+
+  .flexfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 30px;
+    top: 35px;
+    position: relative;
+  }
+
+  .logofooter {
+    margin-top: 20px;
+    margin-left: 47px;
+    width: 200px; 
+    height: auto;
+    position: static;
+  }
+
+  .topics1footer {
+    margin-left: 133px;
+    margin-top: -50px;
+  }
+
+  .topics2footer {
+    margin-left: 133px;
+    margin-top: -50px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px; 
+    right: 0;
+  }
+
+  .divaddress{
+    margin-left: 21px;
+  }
+
+  .localization {    
+    width: 14%;
+    height: 47%;    
+  }
+
+  .divphone{
+    margin-top: -18px;
+    margin-left: 10px;
+  }
+
+  .divclock {
+    position: static; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .topicclock {   
+    width: 187px;
+    margin-top: -15px;
+    text-align: left;
+  }
+  
+  .division3 {
+    width: 88%;
+    height: 1px;    
+    margin-left: 34px;
+    position: relative;
+    right: 8px;
+    top: 81px;
+  }
+
+  
+  .text {
+    position: relative; 
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    top: 85px;    
+    margin-top: 15px;
+  }
+}
