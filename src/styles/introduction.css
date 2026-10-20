@@ -23,7 +23,7 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
-      min-height: 100vh;
+  min-height: 100vh;
 }
 
 .title {
@@ -42,7 +42,7 @@
 .description1 {
   font-family: var(--font-secondary);
   color: var(--color-text-body);
-   margin-top: 20px;  
+  margin-top: 20px;  
   height: 70px;
   width: 673px;
   font-weight: 400;
@@ -108,14 +108,14 @@
 }
 
 @media screen and (min-width: 744px) and (max-width: 1440px) {
-  .interface {
+  .interfaceintroduction {
     min-height: 80vh;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
   }
 
-  .section.introduction {
+  .section.interfaceintroduction {
     padding: 40px 4%;
   }
 
@@ -160,7 +160,7 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 730px) {
-  .section.introduction {
+  .section.interfaceintroduction {
     padding: 40px 20px;
   }
 

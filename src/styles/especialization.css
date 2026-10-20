@@ -1,0 +1,304 @@
+
+/* Variáveis globais */
+:root {
+  --main-color: #425F8C;
+  --main-font: 'Archivo', sans-serif;
+  --font-secondary: 'Comfortaa', sans-serif;
+  --color-secondary: #474A4B;
+  --color-text-black: #000;
+  --color-text-body: #fff;
+}
+
+/* Seção de especialidades */
+.especialization {
+  padding: 40px 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interfaceespecialization {
+  padding-bottom: 60px;
+}
+
+.flexespecialization {
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between; 
+  gap: 40px; 
+  width: 100%;
+}
+
+.especialization .divtitle {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 700;
+}
+
+.especialization .title1 {
+  height: 68px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-text-black);
+}
+
+.especialization .underlined1 {
+  position: relative;
+  top: -30px;
+  left: 45%;
+  width: 10%;
+  height: 4px;
+  background-color: var(--main-color);
+}
+
+.especialization .underlined2 {
+  position: relative;
+  top: 5px;
+  left: 13.1vh;
+  width: 400px;
+  height: 4px;
+  background-color: var(--main-color);
+}
+
+.especialization .title2 {
+  height: 68px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--color-text-black);
+  text-align: center;
+}
+
+.especialization .title3 {
+  height: 68px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 29px;
+  color: var(--color-text-black);
+  text-align: center;
+}
+
+.especialization h1 {
+  font-family: var(--main-font);
+  font-size: 29px;
+}
+
+.especialization h1 .title3 {
+  margin-left: 5px;
+}
+
+.especialization .text-topespecialization {
+  width: 50%;
+  padding: 0 25px;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  box-sizing: border-box;
+}
+
+.especialization .text-topespecialization2 {
+  width: 50%;
+  margin-top: 5vh;
+  margin-right: 40px;
+  box-sizing: border-box;
+}
+
+.especialization .topics1 {
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  color: var(--color-secondary);
+  line-height: 1.5;
+}
+
+.especialization .divtopics1 {
+  position: relative;
+  top: -10px;
+  width: 100%;
+  padding: 0 20vh;
+  box-sizing: border-box;
+}
+
+.especialization .divtopics2 {
+  position: relative;
+  top: -10px;
+  left: 10vh;
+  width: 100%;
+  padding: 0 9vh;
+  box-sizing: border-box;
+}
+
+.especialization .topics2 {
+  margin-top: 30px;
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  color: var(--color-secondary);
+  line-height: 1.5;
+}
+
+/* Tablets e telas intermediárias */
+@media screen and (min-width: 744px) and (max-width: 1440px) {
+   
+  .flexespecialization {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 40px;
+    padding: 0 5%; 
+  }
+
+  .especialization .text-topespecialization,
+  .especialization .text-topespecialization2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 48%;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+
+  .especialization .h1,
+  .especialization .title3 { 
+    position: static; 
+    left: 0;
+    font-size: 24px; 
+    line-height: 1.3;
+    text-align: left; 
+    width: 90%;
+    margin: 0 0 10px 0; 
+    padding: 0;
+    white-space: normal; 
+  }
+
+
+  .especialization .underlined1{
+    position: relative; 
+    width: 150px;   
+    left: 15%;
+  }
+
+  
+  .especialization .underlined2 {
+    position: static; 
+    left: 0;
+    width: 150px; 
+    height: 4px;
+    margin: 0 0 20px 0; 
+    display: block;
+  }
+
+  .especialization .divtopics1,
+  .especialization .divtopics2 {
+    position: static;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .topics1,
+  .especialization .topics2 {
+    position: static;
+    margin: 6;
+    padding-left: 20px; 
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    left: 0;
+  }
+
+  .topics1 li,
+  .especialization .topics2 li {
+    margin-bottom: 8px;
+  }
+ 
+}
+
+/* Dispositivos móveis */
+@media screen and (min-width: 360px) and (max-width: 730px) {
+  .especialization {
+    padding: 30px 5%;
+  }
+
+  .interfaceespecialization {
+    padding-bottom: 30px;
+  }
+
+  .flexespecialization {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .especialization .divtitle {
+    margin-top: 30px;
+  }
+
+  .especialization .title1 {
+    height: auto;
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .especialization .title2 {
+    height: auto;
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .especialization .title3 {
+    display: block;
+    height: auto;
+    font-size: 24px;
+    line-height: 1.2;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .especialization h1 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .especialization .underlined1 {
+    position: static;
+    width: 100px;
+    height: 4px;
+    margin: 10px auto 0;
+  }
+
+  .especialization .underlined2 {
+    position: static;
+    width: 120px;
+    height: 4px;
+    margin: 10px auto 20px;
+  }
+
+  .especialization .text-topespecialization,
+  .especialization .text-topespecialization2 {
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .especialization .divtopics1,
+  .especialization .divtopics2 {
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .especialization .topics1,
+  .especialization .topics2 {
+    width: 100%;
+    margin: 15px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+}

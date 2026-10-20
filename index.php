@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="./src/styles/global.css">
     <link rel="stylesheet" href="./src/styles/navbar.css">
     <link rel="stylesheet" href="./src/styles/introduction.css">
+    <link rel="stylesheet" href="./src/styles/especialization.css">
 </head>
 <body>
     <?php include './src/components/navbar.php'; ?>
     <?php include './src/components/introduction.php'; ?>   
+    <?php include './src/components/especialization.php'; ?>   
 </body>
 </html>
