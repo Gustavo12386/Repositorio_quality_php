@@ -24,7 +24,7 @@
                         <h1 class="titlefooter">Contato</h1>
                     </div>
                     <div class="divaddress">
-                        <img class="localization" src="/qualityltda/src/img/indicador(branco).png" alt="localization" />
+                        <img class="localization" style="width: 13%; height: 40%;" src="/qualityltda/src/img/indicador(branco).png" alt="localization" />
                         <p class="topicaddress">
                             Rua Dr. José Peroba, Edifício Metrópolis Empresarial Stiep - Cep
                             41.770-235

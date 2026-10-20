@@ -86,6 +86,11 @@
   color: #c1bcbc;
 }
 
+.localization{
+  position: relative;
+  left: 30px;   
+}
+
 .division2 {
   width: 1px;
   height: 240px;
@@ -95,17 +100,10 @@
 }
 
 .divaddress {
-  width: 280px;
+  width: 300px;
   height: 70px;
   margin-top: 5px;
-  display: flex;
-}
-
-.localization{
-    width: 20%;
-    height: 60%;
-    position: relative;
-    left: 15px;
+  display: flex;  
 }
 
 .topicaddress {
@@ -116,7 +114,7 @@
   line-height: 15px;
   color: var(--color-text-body);
   width: 70%;
-  margin-left: 10px;
+  margin-left: 10%
 }
 
 .topicphone {
@@ -144,7 +142,7 @@
 .divclock {
   position: relative;
   bottom: 10px;
-  left: 30px;
+  left: 38px;
   display: flex;
 }
 
@@ -207,7 +205,7 @@
 
   .divphone {
     position: relative;
-    top: 6px;
+    top: -14px;
   }
 
   .division3 {
@@ -218,6 +216,12 @@
     justify-content: center;
     border: 1px solid var(--color-text-body);
   }
+
+  .localization {    
+    position: relative;
+    left: 34px;  
+  }
+  
 }
 
 @media screen and (min-width: 360px) and (max-width: 730px) {
@@ -263,12 +267,17 @@
   }
 
   .divaddress{
-    margin-left: 21px;
+    margin-left: 36px;
+  }
+
+  .topicaddress{
+    position: relative;
+    right: 6px;
   }
 
   .localization {    
-    width: 14%;
-    height: 47%;    
+    position: relative;
+    left: 20px;  
   }
 
   .divphone{

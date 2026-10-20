@@ -21,6 +21,7 @@
     <?php include './src/components/introduction.php'; ?>   
     <?php include './src/components/especialization.php'; ?>   
     <?php include './src/components/acting.php'; ?>   
+    <?php include './src/components/contact.php'; ?>   
     <?php include './src/components/trabalheconosco.php'; ?>   
     <?php include './src/components/footer.php'; ?>   
 </body>
