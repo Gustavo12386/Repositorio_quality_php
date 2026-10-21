@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Quality | Engenharia e Consultoria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./src/styles/contact.css">
     <link rel="stylesheet" href="./src/styles/trabalheconosco.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
+    <script src="./src/scripts/navbar.js"></script>
 </head>
 <body>
     <?php include './src/components/navbar.php'; ?>

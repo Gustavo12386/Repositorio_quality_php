@@ -40,8 +40,8 @@
   font-family: var(--font-secondary);
 }
 
-.menu2 {
-  display: none;
+.menu2[hidden] {
+    display: none;
 }
 
 /* Botão de contato */

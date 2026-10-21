@@ -25,10 +25,8 @@
 
             <button
                 type="button"
-                onclick="menushow()"
-                class="mobile-menu-icon"
-                aria-label="Abrir menu"
-                aria-expanded="false"
+                id="mobile-menu-icon"
+                class="mobile-menu-icon"                
             >
                 <img
                     src="/qualityltda/src/img/menu-mobile.svg"
@@ -46,7 +44,7 @@
 
         </div>
 
-        <nav class="menu2">
+        <nav class="menu2" id="menu2" hidden>
             <ul>
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#especialidades">Especialidades</a></li>
