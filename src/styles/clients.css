@@ -1,0 +1,458 @@
+/* Variáveis globais */
+:root {
+    --main-color: #425F8C;
+    --main-font: 'Archivo', sans-serif;
+    --font-secondary: 'Comfortaa', sans-serif;
+    --color-secondary: #474A4B;
+    --color-text-black: #000;
+    --color-text-body: #fff;
+}
+
+/* Seção de clientes */
+.section.clients {
+    padding: 40px 4%;
+    box-sizing: border-box;
+}
+
+.interfaceclients {
+    background-color: #EBECED;
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.divtitleclients {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titleclients {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.divcontentclients {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Categorias de clientes */
+.divtopicsindustry,
+.divtopicsconstruction {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    width: 100%;
+    margin: 50px;
+    animation: FadeIn 1.5s ease-in-out forwards;
+}
+
+.divtopics2industry {
+    margin-top: -5px;
+}
+
+.topicsindustry {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+.divtopicsestatal {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5vh auto 0;
+    animation: FadeIn 1.5s ease-in-out forwards;
+}
+
+.topicsestatal {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+.divtopicsector {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 6vh auto 0;
+    animation: FadeIn 1.5s ease-in-out forwards;
+}
+
+.topicssector {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+.topicsconstruction {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+.divtopics2construction {
+    margin-top: -2px;
+}
+
+.divtopicspublic {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5vh auto 0;
+    animation: FadeIn 1.5s ease-in-out forwards;
+}
+
+.topicspublic {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+.divtopicsothers {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5vh auto 0;
+    animation: FadeIn 1.5s ease-in-out forwards;
+}
+
+.topicsothers {
+    font-family: var(--font-secondary);
+    color: var(--color-secondary);
+}
+
+/* Animação */
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navegação entre categorias */
+.navigationdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+}
+
+.navigationdiv input {
+    display: none;
+}
+
+.navigationdiv label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 113.83px;
+    height: 36px;
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.navigationdiv label::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 4px;
+    background: var(--main-color);
+    transition: 0.2s ease;
+}
+
+.navigationdiv label:hover {
+    font-weight: 600;
+    color: var(--color-text-black);
+}
+
+.navigationdiv label:hover::after {
+    width: 50%;
+}
+
+.navigationdiv input:checked + label {
+    font-weight: 400;
+    color: var(--color-text-black);
+}
+
+.navigationdiv input:checked + label::after {
+    width: 50%;
+}
+
+/* Organização dos campos */
+.divinputs {
+    display: flex;
+    gap: 2vh;
+}
+
+.divinput1 {
+    display: flex;
+}
+
+.divinput2 {
+    display: flex;
+    gap: 1vh;
+}
+
+/* Rótulo ativo */
+.navigationLabel.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 12px;
+    width: 114.33px;
+    height: 36px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--color-text-black);
+    background: linear-gradient(
+        to bottom,
+        transparent calc(100% - 4px),
+        var(--main-color) calc(100% - 4px)
+    );
+}
+
+
+
+/* Tablets e telas médias */
+@media screen and (min-width: 744px) and (max-width: 1440px) {
+    .divtopicsindustry {
+        display: grid;
+        gap: 3vh;
+        margin-top: 6vh;
+        margin-left: -5vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divtopics2industry {
+        position: relative;
+        bottom: 2.2vh;
+        left: 9vh;
+    }
+
+    .divtopics1industry {
+        margin-left: 9vh;
+    }
+
+    .divtopicsestatal {
+        margin-top: 5vh;
+        margin-left: 1vh;
+    }
+
+    .divtopicsector {
+        margin-top: 5vh;
+        margin-left: 3vh;
+    }
+
+    .divtopicsconstruction {
+        display: grid;
+        gap: 3vh;
+        margin-top: 4vh;
+        margin-left: 2vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divtopics2construction {
+        position: relative;
+        bottom: 2.8vh;
+    }
+
+    .divtopicspublic {
+        margin-top: 4vh;
+        margin-left: 2vh;
+    }
+
+    .divtopicsothers {
+        margin-top: 2vh;
+        margin-left: 7vh;
+        animation: FadeIn 1.5s ease-in-out forwards;
+    }
+
+    .navigationdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        position: relative;
+    }
+
+    .navigationdiv input {
+        display: none;
+    }
+
+    .navigationdiv label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 113.83px;
+        height: 36px;
+        font-family: var(--font-secondary);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: var(--color-secondary);
+        cursor: pointer;
+    }
+
+    .navigationdiv label::after {
+        content: '';
+        position: absolute;
+        bottom: -16px;
+        width: 0;
+        height: 4px;
+        background: var(--main-color);
+        transition: 0.2s ease;
+    }
+
+    .navigationdiv label:hover {
+        font-weight: 600;
+        color: var(--color-text-black);
+    }
+
+    .navigationdiv label:hover::after {
+        width: 100%;
+    }
+
+    .navigationdiv input:checked + label {
+        font-weight: 400;
+        color: var(--color-text-black);
+    }
+
+    .navigationdiv input:checked + label::after {
+        width: 50%;
+    }
+}
+
+/* Celulares */
+@media screen and (min-width: 360px) and (max-width: 730px) {
+    .divtopicsindustry {
+        gap: 3vh;
+        position: relative;
+        right: 4vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divtopics2industry {
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .divtopicsestatal {
+        margin-top: 5vh;
+        margin-left: 1.5vh;
+    }
+
+    .divtopicsector {
+        margin-top: 5vh;
+        margin-left: 3vh;
+    }
+
+    .divtopicsconstruction {
+        gap: 3vh;
+        position: relative;
+        right: 4.3vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divtopics2construction {
+        position: relative;
+        bottom: 2.5vh;
+    }
+
+    .divtopicspublic {
+        margin-top: 4vh;
+        margin-left: 2vh;
+    }
+
+    .divtopicsothers {
+        margin-top: 2vh;
+        margin-left: 5vh;
+    }
+
+    .navigationdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 11px;
+        position: relative;
+    }
+
+    .navigationdiv input {
+        display: none;
+    }
+
+    .navigationdiv label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 113.83px;
+        height: 36px;
+        font-family: var(--font-secondary);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: var(--color-secondary);
+        cursor: pointer;
+    }
+
+    .navigationdiv label::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        width: 0;
+        height: 4px;
+        background: var(--main-color);
+        transition: 0.2s ease;
+    }
+
+    .navigationdiv label:hover {
+        font-weight: 600;
+        color: var(--color-text-black);
+    }
+
+    .navigationdiv label:hover::after {
+        width: 50%;
+    }
+
+    .navigationdiv input:checked + label {
+        font-weight: 400;
+        color: var(--color-text-black);
+    }
+
+    .navigationdiv input:checked + label::after {
+        width: 50%;
+    }
+
+    .divinputs {
+        display: flex;
+        flex-direction: column;
+    }
+}

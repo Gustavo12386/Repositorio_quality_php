@@ -58,7 +58,7 @@ section.portfolio {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 180vh;
+    gap: 140vh;
     margin-top: -30px;
 }
 
@@ -76,14 +76,6 @@ section.portfolio {
     font-weight: 400;
     cursor: pointer;
     transition: all 0.2s ease;
-}
-
-.chevron-left{
-  font-size: large
-}
-
-.chevron-right{
-  font-size: large
 }
 
 .paginationbutton:hover {
