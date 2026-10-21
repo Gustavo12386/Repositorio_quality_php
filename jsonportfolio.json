@@ -1,0 +1,103 @@
+
+[
+  {
+    "enterprise": "ABB LTDA.",
+    "description": "Projeto elétrico da ampliação da estação de condicionamento prévio de esgoto do Rio Vermelho, pertencente à EMBASA"
+  },
+  {
+    "enterprise": "ALSTOM BRASIL LTDA.",
+    "description": "Projeto de repotencialização dos turbo geradores de 13,8 kV TG’s 5301B/D da COPENE, em Camaçari-BA."
+  },
+  {
+    "enterprise": "BAHIATURSA",
+    "description": "Projeto executivo arquitetônico e complementares do Centro de Convenções de Porto Seguro-BA, com área de 17.000 m²."
+  },
+  {
+    "enterprise": "BRASKEM S.A.",
+    "description": "Projeto elétrico para alimentação em 69 kV das fábricas da MONSANTO e BASF, em Camaçari-BA; ampliação da subestação de 230 kV; digitalização dos sistemas de proteção e implantação de sistema supervisório das unidades industriais; modernização das instalações de 69 kV da UTE-Sul; digitalização dos painéis de 69 kV, 4,16 kV e 480 V da UTE-Norte; e detalhamento para implantação de seletividade lógica nos painéis de 13,8 kV da SE-Leste e UTE-Sul."
+  },
+  {
+    "enterprise": "BRENNAND ENERGIA EÓLICA S.A.",
+    "description": "Projeto elétrico da subestação de 230 kV para conexão do parque de geração de energia eólica de Sento Sé ao Sistema Interligado Nacional (ONS)."
+  },
+  {
+    "enterprise": "CITÉLUZ LTDA.",
+    "description": "Elaboração de projetos elétricos de iluminação cênica para igrejas, catedrais, teatros e edifícios públicos, incluindo a Igreja do Bonfim, em Salvador-BA; Igreja Matriz de Feira de Santana-BA; Catedral de São Sebastião, em Ilhéus-BA; Igreja Nossa Senhora da Boa Viagem, em São Bernardo do Campo-SP; Igreja de Santo Antônio de Pádua, em Jequié-BA; Igreja de Madre de Deus, em Recife-PE; Catedral de Fortaleza; Catedral de Petrópolis; Câmara Municipal do Rio de Janeiro; e Teatro Municipal do Rio de Janeiro."
+  },
+  {
+    "enterprise": "CIVIL EMPREENDIMENTOS LTDA.",
+    "description": "Projeto de instalações elétricas e hidráulicas do empreendimento imobiliário Civil Towers, localizado no STIEP, em Salvador-BA."
+  },
+  {
+    "enterprise": "COELBA – COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
+    "description": "Projeto de iluminação pública e implantação de vala técnica compartilhada para rede subterrânea no bairro Santo Antônio Além do Carmo, em Salvador-BA."
+  },
+  {
+    "enterprise": "CONDER",
+    "description": "Projeto elétrico do novo Estádio de Pituaçu, em Salvador-BA."
+  },
+  {
+    "enterprise": "DETEN QUÍMICA S/A",
+    "description": "Elaboração do projeto elétrico da nova Unidade de Sulfonação, em Camaçari-BA."
+  },
+  {
+    "enterprise": "ELTEC CONSTRUTORA LTDA.",
+    "description": "Projeto executivo da subestação SE Bálsamo, 69/13,8 kV, 10/12,5 MVA, com seis saídas de 13,8 kV, abrangendo as disciplinas civil, elétrica, mecânica e urbanização."
+  },
+  {
+    "enterprise": "ERB ARATINGA S/A",
+    "description": "Projeto para implantação de sistema de cogeração de energia elétrica a partir da geração de vapor na planta da DOW CHEMICAL, em Candeias-BA."
+  },
+  {
+    "enterprise": "ESPORTE CLUBE VITÓRIA",
+    "description": "Projeto elétrico para implantação do sistema de iluminação do campo do Estádio Manoel Barradas (Barradão), com capacidade para 35.000 pessoas, em Salvador-BA."
+  },
+  {
+    "enterprise": "GEHRLICHER ECOLUZ SOLAR DO BRASIL S.A.",
+    "description": "Projeto elétrico do sistema de interligação em corrente contínua dos coletores de energia solar do Estádio de Pituaçu, em Salvador-BA."
+  },
+  {
+    "enterprise": "HOSPITAL ALIANÇA",
+    "description": "Projeto das instalações do novo prédio do Pronto Atendimento Pediátrico, em Salvador-BA."
+  },
+  {
+    "enterprise": "HOSPITAL ESPANHOL",
+    "description": "Projeto de reformulação do sistema elétrico e implantação de sistema de geração de energia nos horários de ponta, com paralelismo momentâneo com a concessionária."
+  },
+  {
+    "enterprise": "MAGNESITA S.A.",
+    "description": "Projeto para implantação de gerador de 7 MW/13,8 kV na Unidade de Catiboaba, em Brumado-BA."
+  },
+  {
+    "enterprise": "NEC DO BRASIL S/A",
+    "description": "Projeto de 120 Estações Rádio Base (ERBs) para composição do sistema de telefonia móvel celular de Salvador e interior da Bahia."
+  },
+  {
+    "enterprise": "ODEBRECHT EMPREENDIMENTOS IMOBILIÁRIOS",
+    "description": "Projeto de instalações elétricas e hidráulicas dos empreendimentos imobiliários Salvador Trade Center e Mundo Plaza, ambos localizados na Avenida Tancredo Neves, em Salvador-BA."
+  },
+  {
+    "enterprise": "PETROBRAS",
+    "description": "Elaboração de estudos de fluxo de carga, curto-circuito, seletividade e energia dissipada em arco das Plataformas I, III e V; e estudo de seletividade das proteções de fase e terra da subestação da UPNG-N, de 5 MVA e 13,8-2,4 kV, localizada no DINOR, em Catu-BA."
+  },
+  {
+    "enterprise": "SESP – SECRETARIA MUNICIPAL DE SERVIÇOS PÚBLICOS – SALVADOR – ILUMINAÇÃO PÚBLICA",
+    "description": "Elaboração de projetos, cadastros e assessoria na fiscalização de obras de implantação de sistemas de iluminação pública em Salvador-BA, abrangendo importantes vias e espaços públicos, como Avenida Paralela, Avenida Luiz Eduardo Magalhães, Avenida Contorno, Vale do Canela, Avenida Vasco da Gama, Avenida Manoel Dias da Silva, Avenida Centenário, Avenida ACM, Avenida Bonocô, Praça da Revolução, Praça do Sol, Largo do Papagaio, Rótula do Aeroporto e Largo Dois de Julho, incluindo projetos de iluminação especial de Carnaval e implantação de valas técnicas compartilhadas."
+  },
+  {
+    "enterprise": "SEMOP – SECRETARIA MUNICIPAL DE ORDEM PÚBLICA – SALVADOR – ILUMINAÇÃO PÚBLICA",
+    "description": "Elaboração de projetos, cadastros e assessoria na fiscalização de obras de implantação de sistemas de iluminação pública em Salvador-BA, contemplando São Tomé de Paripe, Reurbanização da Barra, Orla da Ribeira, Orla Marítima (Itapuã, Piatã, Jardim de Alah e Pituba), Avenida Paralela com implantação de iluminação LED e iluminação especial de Carnaval."
+  },
+  {
+    "enterprise": "SUCAB – SUPERINTENDÊNCIA DE CONSTRUÇÕES ADMINISTRATIVAS DA BAHIA",
+    "description": "Elaboração do projeto executivo do Teatro de Santo Amaro da Purificação-BA, abrangendo projetos estrutural, conforto térmico, iluminação cênica, cenotecnia, ar-condicionado, sonorização, projeção, acústica, visibilidade, ambientação, instalações elétricas, para-raios, telefonia, informática, hidrossanitárias, segurança, proteção contra incêndio e programação visual; e projeto arquitetônico e complementares da Maternidade José Maria Magalhães, com área de 12.000 m², em Salvador-BA."
+  },
+  {
+    "enterprise": "TRIBUNAL REGIONAL FEDERAL",
+    "description": "Elaboração do projeto executivo da sede da Seção Judiciária Federal de Alagoas, com área de 19.000 m²."
+  },
+  {
+    "enterprise": "UCAR – PRODUTOS DE CARBONO S/A",
+    "description": "Elaboração de estudo de curto-circuito e seletividade da Unidade de Candeias-BA."
+  }
+]

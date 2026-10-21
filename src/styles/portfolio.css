@@ -1,0 +1,145 @@
+
+/* Variáveis globais */
+:root {
+    --main-color: #425F8C;
+    --main-font: 'Archivo', sans-serif;
+    --font-secondary: 'Comfortaa', sans-serif;
+    --color-secondary: #474A4B;
+    --color-text-black: #000;
+    --color-text-body: #fff;
+}
+
+section.portfolio {
+    padding: 40px 4%;
+    box-sizing: border-box;
+}
+
+.interfaceportfolio {
+    padding: 20px;
+}
+
+.divtitleportfolio {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titleportfolio {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: clamp(24px, 2.5vw, 36px);
+    overflow-wrap: break-word;
+}
+
+.divcontentportfolio {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtitleportfolio {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+.descriptionportfolio {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: clamp(14px, 1.3vw, 18px);
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 900px;
+    line-height: 1.6;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180vh;
+    margin-top: -30px;
+}
+
+.paginationbutton {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.chevron-left{
+  font-size: large
+}
+
+.chevron-right{
+  font-size: large
+}
+
+.paginationbutton:hover {
+    color: var(--color-secondary);
+}
+
+.paginationbutton:disabled {
+    opacity: 0;
+    cursor: not-allowed;
+}
+
+@media screen and (min-width: 744px) and (max-width: 1440px) {
+    .interfaceportfolio {
+        padding: 40px;
+        padding-top: 20px;
+    }
+
+    .descriptionportfolio {
+        width: 50vh;
+        transform: translate(2%);
+    }
+
+    .pagination {
+        gap: 56vh;
+        margin-top: -60px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 730px) {
+    .interfaceportfolio {
+        padding: 20px;
+        padding-top: 20px;
+    }
+
+    .titleportfolio {
+        font-size: 30px;
+    }
+
+    .subtitleportfolio {
+        font-size: 19px;
+        margin-right: 1%;
+    }
+
+    .descriptionportfolio {
+        width: 100%;
+        max-width: 60%;
+        font-size: 14px;
+        margin: 20px auto 0;
+        padding: 10px;
+        position: static;
+        text-align: center;
+    }
+
+    .pagination {
+        gap: 29vh;
+        position: relative;
+        bottom: 10vh;
+    }
+}
