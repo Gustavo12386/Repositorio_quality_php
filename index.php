@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./src/styles/introduction.css">
     <link rel="stylesheet" href="./src/styles/especialization.css">
     <link rel="stylesheet" href="./src/styles/acting.css">
+    <link rel="stylesheet" href="./src/styles/contact.css">
     <link rel="stylesheet" href="./src/styles/trabalheconosco.css">
-     <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
 </head>
 <body>
     <?php include './src/components/navbar.php'; ?>

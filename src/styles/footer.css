@@ -113,7 +113,7 @@
   font-size: 13px;
   line-height: 15px;
   color: var(--color-text-body);
-  width: 70%;
+  width: 30vh;
   margin-left: 10%
 }
 
@@ -200,7 +200,7 @@
   }
 
   .topicaddress {
-    width: 21vh;
+    width: 24vh;
   }
 
   .divphone {

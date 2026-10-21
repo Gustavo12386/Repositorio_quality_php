@@ -1,18 +1,17 @@
 <section id="contato" class="contact">
   <div class="container">
-    <h1 class="title">Fale Conosco</h1>        
+    <h1 class="titlecontact">Fale Conosco</h1>        
     <div class="grid">
     
       <div class="location">
         <div class="locationHeader">       
           <img 
             class="icon" 
-            src="caminho/para/indicator.png" 
+            src="/qualityltda/src/img/indicador(azul).png" 
             alt="" 
-            width="28" 
-            height="36" 
+            style="width: 37px; height: 36px;"            
           />
-          <h2 class="subtitle">Localização</h2>
+          <h2 class="subtitle" style="font-size: 24px;">Localização</h2>
         </div>
 
         <iframe
@@ -38,21 +37,21 @@
           Teremos o maior prazer em lhe atender!
         </p>
 
-        <form class="form" method="POST" action="">
+        <form class="formcontact" method="POST" action="">
           <div class="field">              
-            <input class="input" type="text" id="name" name="name" placeholder="Nome" required />
+            <input class="inputcontact" type="text" id="name" name="name" placeholder="Nome" required />
           </div>
 
           <div class="field">               
-            <input class="input" type="email" id="email" name="email" placeholder="Email" required />
+            <input class="inputcontact" type="email" id="email" name="email" placeholder="Email" required />
           </div>
 
           <div class="field">           
-            <input class="input" type="text" id="phone" name="phone" placeholder="Telefone" maxlength="15" required />
+            <input class="inputcontact" type="text" id="phone" name="phone" placeholder="Telefone" maxlength="15" required />
           </div>
 
           <div class="field">               
-            <select class="select" id="time" name="time" required>
+            <select class="selectcontact" id="time" name="time" required>
               <option value="">Melhor Horário de Contato</option>
               <option value="manha">Manhã</option>
               <option value="tarde">Tarde</option>
@@ -61,7 +60,7 @@
           </div>
 
           <div class="field">               
-            <textarea class="textarea" id="message" name="message" placeholder="Mensagem" required></textarea>
+            <textarea class="textareacontact" id="message" name="message" placeholder="Mensagem" required></textarea>
           </div>
 
           <button class="button" type="submit">Enviar</button>
