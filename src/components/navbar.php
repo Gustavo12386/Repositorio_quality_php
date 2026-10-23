@@ -5,7 +5,7 @@
             <div class="divlogo">
                 <a href="#inicio">
                     <img
-                        src="/qualityltda/src/img/logo.png"
+                        src="src/img/logo.png"
                         alt="Logo"
                         class="logo"
                     >
@@ -29,7 +29,7 @@
                 class="mobile-menu-icon"                
             >
                 <img
-                    src="/qualityltda/src/img/menu-mobile.svg"
+                    src="src/img/menu-mobile.svg"
                     alt=""
                     width="30"
                     height="30"

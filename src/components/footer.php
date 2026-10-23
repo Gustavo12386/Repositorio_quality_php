@@ -3,7 +3,7 @@
         <div class="linefooter">
             <div class="flexfooter">
                 <div class="logofooter">
-                    <img class="logofooter" src="/qualityltda/src/img/logo.png" alt="logo" />
+                    <img class="logofooter" src="src/img/logo.png" alt="logo" />
                 </div>
                 <div class="division1"></div>
                 <div class="topics1footer">
@@ -24,18 +24,18 @@
                         <h1 class="titlefooter">Contato</h1>
                     </div>
                     <div class="divaddress">
-                        <img class="localization" style="width: 13%; height: 40%;" src="/qualityltda/src/img/indicador(branco).png" alt="localization" />
+                        <img class="localization" style="width: 13%; height: 40%;" src="src/img/indicador(branco).png" alt="localization" />
                         <p class="topicaddress">
                             Rua Dr. José Peroba, Edifício Metrópolis Empresarial Stiep - Cep
                             41.770-235
                         </p>
                     </div>
                     <div class="divphone">
-                        <img class="phone" src="/qualityltda/src/img/telefone.png" alt="phone" />
+                        <img class="phone" src="src/img/telefone.png" alt="phone" />
                         <p class="topicphone">(71) 3341-1414</p>
                     </div>
                     <div class="divclock">
-                        <img class="clock" src="/qualityltda/src/img/relógio.png" alt="clock" />
+                        <img class="clock" src="src/img/relógio.png" alt="clock" />
                         <p class="topicclock">Horários: Segunda a Sexta feira das 8:00 às 18:00</p>
                     </div>
                 </div>

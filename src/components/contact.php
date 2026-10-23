@@ -7,7 +7,7 @@
         <div class="locationHeader">       
           <img 
             class="icon" 
-            src="/qualityltda/src/img/indicador(azul).png" 
+            src="src/img/indicador(azul).png" 
             alt="" 
             style="width: 37px; height: 36px;"            
           />

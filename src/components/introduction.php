@@ -29,13 +29,13 @@
 
                     <div class="imgs">
                         <img
-                            src="/qualityltda/src/img/Certificado-validade.jpeg"
+                            src="src/img/Certificado-validade.jpeg"
                             alt="Certificado de Qualidade"
                             class="certificate"
                         >
 
                         <img
-                            src="/qualityltda/src/img/logo_veritas.png"
+                            src="src/img/logo_veritas.png"
                             alt="Logo Veritas"
                             class="iso"
                         >
