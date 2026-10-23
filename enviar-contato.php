@@ -38,16 +38,12 @@ $mail = new PHPMailer(true);
 try {
     // Mantenha a configuração SMTP que já funcionava.
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+    $mail->Host       = 'smtps.uhserver.com';
     $mail->SMTPAuth   = true;
-
-    // Configure essas variáveis no ambiente do PHP.
-    // Se ainda não as configurou, veja a observação abaixo.
-    $mail->Username   = 'calderarogustavo@gmail.com';
-    $mail->Password   = 'cpmp wneq zlee nmxh';
-
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port       = 587;
+    $mail->Username   = 'quality@qualityltda.com.br';
+    $mail->Password   = 'keGilo99';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
     $mail->CharSet    = 'UTF-8';
 
     if (!$mail->Username || !$mail->Password) {
@@ -57,12 +53,12 @@ try {
     }
 
     $mail->setFrom(
-        'calderarogustavo@gmail.com',
+        'quality@qualityltda.com.br',
         'Quality Ltda - Site'
     );
 
     $mail->addAddress(
-        'calderarogustavo@gmail.com',
+        'quality@qualityltda.com.br',
         'Equipe Quality'
     );
 

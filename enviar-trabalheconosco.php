@@ -80,21 +80,21 @@ $mail = new PHPMailer(true);
 try {
     // Configuração SMTP já utilizada no projeto
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';
+    $mail->Host       = 'smtps.uhserver.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'calderarogustavo@gmail.com';
-    $mail->Password   = 'cpmp wneq zlee nmxh';
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port       = 587;
+    $mail->Username   = 'quality@qualityltda.com.br';
+    $mail->Password   = 'keGilo99';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+    $mail->Port       = 465;
     $mail->CharSet    = 'UTF-8';
 
     $mail->setFrom(
-        'calderarogustavo@gmail.com',
+        'quality@qualityltda.com.br',
         'Quality Ltda - Site'
     );
 
     $mail->addAddress(
-        'calderarogustavo@gmail.com',
+        'quality@qualityltda.com.br',
         'Equipe Quality'
     );
 

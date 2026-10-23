@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (botao) {
             botao.disabled = true;
-            botao.textContent = 'Enviando currículo...';
+            botao.value = 'Enviando...';
         }
 
         await new Promise(resolve => requestAnimationFrame(() => resolve()));
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             await Swal.fire({
                 icon: 'success',
-                title: 'Currículo enviado!',
+                title: 'Informações Enviadas com Sucesso!',
                 text: resultado.mensagem,
                 confirmButtonColor: '#425F8C'
             });
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } finally {
             if (botao) {
                 botao.disabled = false;
-                botao.textContent = 'Enviar currículo';
+                botao.value = 'Enviar';
             }
         }
     });

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (btnEnviar) {
             btnEnviar.disabled = true;
-            btnEnviar.textContent = 'Enviando...';
+            btnEnviar.value = 'Enviando...';
         }
 
         try {
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } finally {
             if (btnEnviar) {
                 btnEnviar.disabled = false;
-                btnEnviar.textContent = 'Enviar';
+                btnEnviar.value = 'Enviar';
             }
         }
     });
