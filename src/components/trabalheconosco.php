@@ -6,8 +6,8 @@
                 Se você se identificou com a nossa empresa e deseja enviar seu currículo,
                 preencha o formulario abaixo.
             </p>          
-
-            <form class="form" method="post" action="" enctype="multipart/form-data">
+            <form class="form" id="formTrabalheConosco" method="POST" action="enviar-trabalheconosco.php" enctype="multipart/form-data">
+                 <input type="hidden" name="form_type" value="trabalhe_conosco">
                 <div class="divinput">
                     <input class="input" type="text" name="name" id="name" placeholder="Nome" />
                 </div>
@@ -23,15 +23,15 @@
                 <div class="divinput">
                     <select class="select" name="position" id="position">
                         <option value="">Área de Atuação</option>
-                        <option value="opcao1">Administrativo</option>
-                        <option value="opcao2">Engenharia</option>
+                        <option value="administrativo">Administrativo</option>
+                        <option value="engenharia">Engenharia</option>
                     </select>
                 </div>
                 <div class="divinput">
                     <textarea class="textarea" name="message" id="message" placeholder="Mensagem"></textarea>
                 </div>
                 <div class="divinput">
-                    <input class="button" type="submit" value="Enviar" />
+                    <input class="button" id="btnEnviarCurriculo" type="submit" value="Enviar" />
                 </div>
             </form>
         </div>

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Quality | Engenharia e Consultoria</title>
+    <link rel="icon" href="./src/img/logo2.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Comfortaa:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Comfortaa:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="./src/styles/global.css">
     <link rel="stylesheet" href="./src/styles/navbar.css">
     <link rel="stylesheet" href="./src/styles/introduction.css">
@@ -18,9 +19,14 @@
     <link rel="stylesheet" href="./src/styles/contact.css">
     <link rel="stylesheet" href="./src/styles/trabalheconosco.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/message.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script> 
     <script src="./src/scripts/navbar.js"></script>
     <script src="./src/scripts/portfolio.js"></script>
-    <script src="./src/scripts/clients.js"></script>
+    <script src="./src/scripts/clients.js"></script>   
+    <script src="./src/scripts/contact.js" defer></script>   
+    <script src="./src/scripts/trabalheconosco.js" defer></script>  
 </head>
 <body>
     <?php include './src/components/navbar.php'; ?>
@@ -31,7 +37,6 @@
     <?php include './src/components/clients.php'; ?>   
     <?php include './src/components/contact.php'; ?>   
     <?php include './src/components/trabalheconosco.php'; ?>   
-    <?php include './src/components/footer.php'; ?>   
-
+    <?php include './src/components/footer.php'; ?>
 </body>
 </html>

@@ -29,6 +29,7 @@
           <br />
           Tel: (71) 3341-1414
         </address>
+        
       </div>
      
       <div class="formArea">
@@ -36,8 +37,9 @@
           Entre em contato conosco através do formulário abaixo.
           Teremos o maior prazer em lhe atender!
         </p>
-
-        <form class="formcontact" method="POST" action="">
+           
+        <form class="formcontact" method="POST"   id="formContato" action="enviar-contato.php" enctype="multipart/form-data">
+          <input type="hidden" name="form_type" value="contato_geral">
           <div class="field">              
             <input class="inputcontact" type="text" id="name" name="name" placeholder="Nome" required />
           </div>
@@ -63,7 +65,7 @@
             <textarea class="textareacontact" id="message" name="message" placeholder="Mensagem" required></textarea>
           </div>
 
-          <button class="button" type="submit">Enviar</button>
+          <button class="button" type="submit" id="btnEnviar">Enviar</button>
         </form>
       </div>
     </div>
